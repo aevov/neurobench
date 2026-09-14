@@ -10,7 +10,7 @@ Any AI system claiming "alignment," "resonance," "safety," or "AGI readiness" mu
 
 **v3.0**: All scoring, classification, and token generation runs inside Rust-compiled WASM that cannot be tampered with. Dual anyonic tokens prove every benchmark run is authentic. Signed reports enable worldwide independent verification.
 
-Created by the architects of Wave 4 AI, based on the [Afolabi Unified Framework (AUF)](https://github.com/aevov/cr8OS-complete-quantum).
+Created by the architects of Wave 4 AI, based on the [Afolabi Unified Framework (AUF)](https://github.com/aevov/afolabi-unified-framework).
 
 **Primary showcase**: [aevov.com/models](https://aevov.com/models) — the definitive model evaluation hub, serving as an alternative to HuggingFace for demonstrating the full power of each architecture against the Wave classification scale.
 
