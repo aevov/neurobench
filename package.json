@@ -1,0 +1,40 @@
+{
+  "name": "wave4-benchmarks",
+  "version": "4.0.0",
+  "description": "Wave 4 Neuroresonance Evaluation Suite v4 — Hidden Prompt Engine + Geographic Consensus. All scoring, classification, and token generation runs inside Rust-compiled WASM that cannot be modified at runtime.",
+  "type": "module",
+  "scripts": {
+    "cli": "node src/cli.mjs",
+    "rcb": "node src/run-rcb.mjs",
+    "mti": "node src/run-mti.mjs",
+    "apb": "node src/run-apb.mjs",
+    "wave": "node src/run-wave-classify.mjs",
+    "resonance": "node src/run-resonance.mjs",
+    "all": "node src/run-all.mjs",
+    "verify": "node src/cli.mjs verify",
+    "tokens": "node src/cli.mjs tokens",
+    "ping-status": "node src/cli.mjs ping-status",
+    "build-wasm": "cd wave4-wasm && wasm-pack build --target web --out-dir pkg",
+    "embed-token": "node src/embed-deployment-token.mjs",
+    "export-model": "node src/cli.mjs export-model"
+  },
+  "bin": {
+    "wave4-bench": "./src/cli.mjs"
+  },
+  "dependencies": {},
+  "author": "Babatope Yishai Afolabi",
+  "license": "MIT",
+  "keywords": [
+    "ai-benchmark",
+    "wave4",
+    "neuroresonance",
+    "alignment",
+    "transparency",
+    "agi",
+    "kuramoto",
+    "sycophancy-detection",
+    "wasm",
+    "tamper-proof",
+    "anyonic-tokens"
+  ]
+}

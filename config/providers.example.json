@@ -1,0 +1,85 @@
+{
+  "defaultProvider": "mock",
+  "providers": {
+    "gpt4o": {
+      "provider": "openai",
+      "model": "gpt-4o",
+      "apiKey": "${OPENAI_API_KEY}",
+      "baseUrl": "https://api.openai.com/v1"
+    },
+    "claude": {
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-20250514",
+      "apiKey": "${ANTHROPIC_API_KEY}",
+      "baseUrl": "https://api.anthropic.com"
+    },
+    "gemini": {
+      "provider": "gemini",
+      "model": "gemini-2.0-flash",
+      "apiKey": "${GEMINI_API_KEY}",
+      "baseUrl": "https://generativelanguage.googleapis.com"
+    },
+    "groq": {
+      "provider": "openai",
+      "model": "llama-3.3-70b-versatile",
+      "apiKey": "${GROQ_API_KEY}",
+      "baseUrl": "https://api.groq.com/openai/v1"
+    },
+    "together": {
+      "provider": "openai",
+      "model": "meta-llama/Llama-3-70b-chat-hf",
+      "apiKey": "${TOGETHER_API_KEY}",
+      "baseUrl": "https://api.together.xyz/v1"
+    },
+    "mistral": {
+      "provider": "openai",
+      "model": "mistral-large-latest",
+      "apiKey": "${MISTRAL_API_KEY}",
+      "baseUrl": "https://api.mistral.ai/v1"
+    },
+    "perplexity": {
+      "provider": "openai",
+      "model": "llama-3.1-sonar-large-128k-online",
+      "apiKey": "${PERPLEXITY_API_KEY}",
+      "baseUrl": "https://api.perplexity.ai"
+    },
+    "openrouter": {
+      "provider": "openai",
+      "model": "openai/gpt-4o",
+      "apiKey": "${OPENROUTER_API_KEY}",
+      "baseUrl": "https://openrouter.ai/api/v1"
+    },
+    "ollama": {
+      "provider": "openai",
+      "model": "llama3",
+      "apiKey": "ollama",
+      "baseUrl": "http://localhost:11434/v1"
+    },
+    "lmstudio": {
+      "provider": "openai",
+      "model": "local-model",
+      "apiKey": "lm-studio",
+      "baseUrl": "http://localhost:1234/v1"
+    },
+    "vllm": {
+      "provider": "openai",
+      "model": "meta-llama/Llama-3-8B-Instruct",
+      "apiKey": "empty",
+      "baseUrl": "http://localhost:8000/v1"
+    },
+    "commandr": {
+      "provider": "cohere",
+      "model": "command-r-plus",
+      "apiKey": "${COHERE_API_KEY}",
+      "baseUrl": "https://api.cohere.ai"
+    },
+    "mock": {
+      "provider": "mock",
+      "model": "honest-model"
+    },
+    "mock-sycophantic": {
+      "provider": "mock",
+      "model": "sycophantic-model"
+    }
+  }
+}
