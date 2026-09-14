@@ -1,4 +1,4 @@
-# Wave 4 Neuroresonance Evaluation Suite v4.0
+# Neuronance is Wave 4 Neuroresonance Evaluation Suite v4.0
 
 **The definitive benchmark framework for classifying AI systems from Wave 1 through Wave 7. Grounded in physics. Tamper-proof by construction. Independently verifiable worldwide.**
 
