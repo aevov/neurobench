@@ -2,7 +2,7 @@
 
 **The definitive benchmark framework for classifying AI systems from Wave 1 through Wave 7. Grounded in physics. Tamper-proof by construction. Independently verifiable worldwide.**
 
-**IMPORTANT!! Go through the readme before you begin** **Neuronance is a combination of Neural and Resonance = Neuronance**
+**IMPORTANT!! Go through the readme before you begin!** **Neuronance is a combination of Neural and Resonance = Neuronance**
 
 Any AI system claiming "alignment," "resonance," "safety," or "AGI readiness" must demonstrate measurable capabilities against this framework. If your model claims Wave 4 neuroresonance, prove it. If your alignment technique claims to surpass transformers, test it here.
 
