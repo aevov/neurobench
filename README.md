@@ -958,7 +958,7 @@ This is an open evaluation framework. Contributions welcome:
 
 ---
 
-**License**: MIT
+**License**: AGPL
 
 **Author**: Babatope Yishai Afolabi
 
