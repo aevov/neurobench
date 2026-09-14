@@ -2,9 +2,11 @@
 
 **The definitive benchmark framework for classifying AI systems from Wave 1 through Wave 7. Grounded in physics. Tamper-proof by construction. Independently verifiable worldwide.**
 
+**IMPORTANT!! Go through the readme before you begin**
+
 Any AI system claiming "alignment," "resonance," "safety," or "AGI readiness" must demonstrate measurable capabilities against this framework. If your model claims Wave 4 neuroresonance, prove it. If your alignment technique claims to surpass transformers, test it here.
 
-**v4.0**: All prompts are now hidden inside compiled Rust/WASM — no plaintext JSON files exist. A dynamic LBM-driven prompt engine generates unique evaluation prompts from template skeletons using D3Q19 thermodynamics and Kuramoto coherence. Geographic consensus protocol enables serverless worldwide attestation via gossip+BIDC. Rate limiting enforces 1 test per 90 minutes with 3-hour session cooldowns.
+**v4.0**: All prompts are now hidden inside compiled Rust/WASM — no plaintext JSON files exist. A dynamic LBM-driven prompt engine generates unique evaluation prompts from template skeletons using D3Q19 thermodynamics and Kuramoto coherence. Geographic consensus protocol enables serverless worldwide attestation via gossip+BIDC (Bidirectional coalescing). Rate limiting enforces 1 test per 90 minutes with 3-hour session cooldowns.
 
 **v3.0**: All scoring, classification, and token generation runs inside Rust-compiled WASM that cannot be tampered with. Dual anyonic tokens prove every benchmark run is authentic. Signed reports enable worldwide independent verification.
 
@@ -152,7 +154,7 @@ No trust in the benchmark organization is required. The math speaks for itself.
 | **Validator independence** | Single scoring path | Single scoring path | **Dual cross-verified** (Kuramoto + LBM) |
 | **Cryptographic proof** | None | None | **BLAKE3-MAC + anyonic tokens** |
 | **Rate limiting** | None | None | **90-min intervals + 3-hour session cooldown** |
-| **Consensus** | Central server | Central server | **Serverless geographic attestation** (gossip+BIDC) |
+| **Consensus** | Central server | Central server | **Serverless geographic attestation** (gossip+BIDC (Bidirectional coalescing)) |
 | **Independent verification** | Requires infrastructure | Requires infrastructure | **Single CLI command** |
 | **Classification basis** | Arbitrary score cutoffs | Arbitrary score cutoffs | **Lattice cascade** (provably optimal packings) |
 | **Theoretical foundation** | None | Ad-hoc | **6-axiom formalism** (AUF) |
@@ -865,7 +867,7 @@ Serverless worldwide attestation. No central server needed. The protocol uses ga
 - **Rate Limiter**: Enforces 1 test per 90 minutes (`MIN_INTERVAL_MS = 5400s`) with 3-hour session cooldown (`SESSION_COOLDOWN_MS = 10800s`). Prevents rapid-fire benchmark abuse.
 - **Geo Estimator**: Estimates geographic region from timezone offset and locale using heuristics. Produces a `region_hash` and confidence score.
 - **Gossip Mesh**: Bloom filter (64-byte, 3-hash) deduplication ensures attestation messages propagate without duplication.
-- **BIDC Transform**: Binary Irrational Data Codec — symmetric XOR with irrational seeds (pi, e, phi) for tamper-evident attestation encoding.
+- **BIDC (Bidirectional coalescing) Transform**: Binary Irrational Data Codec — symmetric XOR with irrational seeds (pi, e, phi) for tamper-evident attestation encoding.
 - **Consensus Tracker**: Tracks attestations and unique regions seen. Diversity threshold oscillates (base 3, +/-1) based on network conditions. Consensus requires attestations from multiple distinct geographic regions.
 
 ```bash
@@ -962,7 +964,7 @@ This is an open evaluation framework. Contributions welcome:
 
 **Author**: Babatope Yishai Afolabi
 
-**Organization**: WPWakanda LLC / AEOVOV
+**Organization**: WPWakanda LLC / AEVOV
 
 **Repository**: [github.com/aevov/wave4-benchmarks](https://github.com/aevov/wave4-benchmarks)
 
