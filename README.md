@@ -971,7 +971,7 @@ As AI systems move from simple chat interfaces to autonomous agents managing inf
 
 **Organization**: WPWakanda LLC / AEVOV
 
-**Repository**: [github.com/aevov/wave4-benchmarks](https://github.com/aevov/wave4-benchmarks)
+**Repository**: [github.com/aevov/wave4-benchmarks](https://github.com/aevov/neuronance)
 
 **Model Evaluations**: [aevov.com/models](https://aevov.com/models)
 
